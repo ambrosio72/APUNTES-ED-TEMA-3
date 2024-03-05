@@ -1,10 +1,12 @@
-ÍNDICE
+## DISEÑO Y REALIZACIÓN DE PRUEBAS
+
+### ÍNDICE
 Introducción
 Pruebas
 Integridad
 Calidad
 
-INTRODUCCIÓN
+### INTRODUCCIÓN
 
 Objetivos:
 1. Probar si el software no hace lo que debe hacer.
@@ -13,7 +15,7 @@ Objetivos:
 Frameworks para la realización de pruebas:
 Tiene herramientas comunes y permite unificar el proceso de desarrollo entre desarrolladores.
 
-PRUEBAS
+### PRUEBAS
 
 Hay pruebas dinámicas y estáticas.
 Las pruebas dinámicas requieren la ejecución de la aplicación, mientras que en las estáticas no. Las primeras miden el comportamiento de la aplicación y las segundas examinan el código fuente.
@@ -21,14 +23,14 @@ Las pruebas dinámicas requieren la ejecución de la aplicación, mientras que e
 Estrategias de prueba
 
 Caja negra:
-Se estudia el sistema desde fuera. Son pruebas funcionales.
+Se estudia el sistema **desde fuera**. Son pruebas **funcionales**.
 
 Caja blanca:
-Se examina el código fuente y su ejecución. Son pruebas estructurales.
+Se examina el **código fuente** y su ejecución. Son pruebas **estructurales**.
 
 Tipos de pruebas
 
-Funcionales: Evalúan el cunmplimiento de los requisitos.
+Funcionales: Evalúan el cumplimiento de los **requisitos**.
 -Pruebas unitarias (o de unidad)
 -Pruebas de regresión
 -Pruebas de integración
@@ -37,7 +39,7 @@ Funcionales: Evalúan el cunmplimiento de los requisitos.
 -Pruebas alfa y beta
 -Pruebas de aceptación (validación por parte del cliente)
 
-No funcionales: Evalúan aspectos adicionales como el rendimiento o la seguridad.
+No funcionales: Evalúan aspectos adicionales como el **rendimiento** o la **seguridad**.
 -Pruebas de usabilidad
 -Pruebas de rendimiento
 -Pruebas de stress
@@ -54,14 +56,14 @@ Frameworks para pruebas
 
 Anotaciones de JUnit5
 
-@BeforeAll: El método es invocado antes de iniciar todos los tests. Sólo puede haber un método con esta anotación.
-@AfterAll: El método es invocado después de finalizar todos los tests. Sólo puede haber un método con esta anotación.
-@BeforeEach: Se ejecuta antes de cada test.
-@AfterEach: Se ejecuta después de cada test.
-@Disabled: Los métodos marcados con esta anotación no serán ejecutados.
-@Test: Representa un test que se debe ejecutar.
+@BeforeAll: El método es invocado **antes de iniciar todos los tests**. Sólo puede haber un método con esta anotación.
+@AfterAll: El método es invocado **después de finalizar todos los tests**. Sólo puede haber un método con esta anotación.
+@BeforeEach: Se ejecuta **antes de cada test**.
+@AfterEach: Se ejecuta **después de cada test**.
+@Disabled: Los métodos marcados con esta anotación **no serán ejecutados**.
+@Test: Representa un **test** que se debe ejecutar.
 
-INTEGRACIÓN
+### INTEGRACIÓN
 
 Formas de integración
 
@@ -82,7 +84,7 @@ Cobertura del código
 Es una medida que indica el porcentaje de código que ha sido ejecutado durante las pruebas.
 Hay que intentar que el porcentaje de pruebas ejecutadas sea lo más cercano al 100%.
 
-CALIDAD
+### CALIDAD
 
 Calidad del proceso QA (Quality Assurance)
 
