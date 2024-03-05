@@ -28,6 +28,8 @@ Se estudia el sistema **desde fuera**. Son pruebas **funcionales**.
 ##### Caja blanca:
 Se examina el **código fuente** y su ejecución. Son pruebas **estructurales**.
 
+![cajas](imagenes/cajas.png)
+
 #### Tipos de pruebas
 
 ##### Funcionales: Evalúan el cumplimiento de los **requisitos**.
@@ -54,6 +56,8 @@ Se examina el **código fuente** y su ejecución. Son pruebas **estructurales**.
 - PHP: PHPUnit
 - Javascript: Mocha
 
+![JUnit5](imagenes/JUnit5.png)
+
 #### Anotaciones de JUnit5
 
 - @BeforeAll: El método es invocado **antes de iniciar todos los tests**. Sólo puede haber un método con esta anotación.
@@ -78,6 +82,8 @@ Se examina el **código fuente** y su ejecución. Son pruebas **estructurales**.
 - Bamboo
 - TravisCI
 - CircleCI
+
+  ![Jenkins](imagenes/jenkins.png)
 
 #### Cobertura del código
 
@@ -114,7 +120,3 @@ Transición del producto
 - Portabilidad
 - Reusabilidad
 - Interoperatividad
-
-![javadoc](imagenes/javadoc.png)
-
-![prueba](imagenes/prueba.png)
