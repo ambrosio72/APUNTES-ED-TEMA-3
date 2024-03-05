@@ -1,10 +1,10 @@
 ## DISEÑO Y REALIZACIÓN DE PRUEBAS
 
 ### ÍNDICE
-Introducción
-Pruebas
-Integridad
-Calidad
+- Introducción
+- Pruebas
+- Integridad
+- Calidad
 
 ### INTRODUCCIÓN
 
